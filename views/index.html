@@ -7,18 +7,21 @@
     <link href="..\css\contactus.css"  rel="stylesheet" type="text/css" />
     <link href="..\lib\bootstrap\css\bootstrap-theme.min.css"  rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="..\css\header.css" media="screen" title="no title" charset="utf-8">
-    <script type="text/javascript" src="..\lib\bootstrap\js\bootstrap.min.js"></script>
     <script type="text/javascript" src="..\lib\jquery\jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="..\lib\bootstrap\js\bootstrap.min.js"></script>
+    <script type="text/javascript" src="..\lib\crossroads\js-signals.min.js"></script>
+    <script type="text/javascript" src="..\lib\crossroads\crossroads.min.js"></script>
+    <script type="text/javascript" src="..\scripts\app.js"></script>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-default">
     <div class="container-fluid">
       <ul class="nav navbar-nav">
-        <li><a href="#">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#">Team</a></li>
         <li><a href="#">Services</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="#contactus">Contact Us</a></li>
         <li><a href="#">Acts</a></li>
         <li><a href="#">Rules</a></li>
         <li><a href="#">Calculator</a></li>
@@ -27,6 +30,7 @@
     </div>
   </nav>
 </header>
+<div id="content"></div>
 <div class="contactus">
   <div class="contactusheading">Contact Us</div>
   <img src="..\images\contactus-icon.jpg" alt="" class="contactusicon"/>
