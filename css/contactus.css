@@ -1,0 +1,21 @@
+.contactusheading
+{
+      text-align: center;
+      font-style: oblique;
+      font-size: 3em;
+      font-family: serif;
+}
+.contactusicon
+{
+height: 23em;
+width: auto;
+margin-top: 5em;
+margin-left: 8em;
+border-right: 1px dashed black;
+}
+.Address-information
+{
+  display: inline;
+  
+
+}
