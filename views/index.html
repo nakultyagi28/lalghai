@@ -4,7 +4,15 @@
     <meta charset="utf-8">
     <title></title>
     <link href="..\lib\bootstrap\css\bootstrap.min.css"  rel="stylesheet" type="text/css" />
+    <link href="..\css\index.css"  rel="stylesheet" type="text/css" />
+    <link href="..\css\home.css"  rel="stylesheet" type="text/css" />
     <link href="..\css\contactus.css"  rel="stylesheet" type="text/css" />
+    <link href="..\css\team.css"  rel="stylesheet" type="text/css" />
+    <link href="..\css\aboutus.css"  rel="stylesheet" type="text/css" />
+    <link href="..\css\services.css"  rel="stylesheet" type="text/css" />
+    <link href="..\css\trademark.css"  rel="stylesheet" type="text/css" />
+    <link href="..\css\calculator.css"  rel="stylesheet" type="text/css" />
+    <link href="..\css\compliance-management.css"  rel="stylesheet" type="text/css" />
     <link href="..\lib\bootstrap\css\bootstrap-theme.min.css"  rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="..\css\header.css" media="screen" title="no title" charset="utf-8">
     <script type="text/javascript" src="..\lib\jquery\jquery-1.12.1.min.js"></script>
@@ -15,31 +23,34 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <ul class="nav navbar-nav">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#contactus">Contact Us</a></li>
-        <li><a href="#">Acts</a></li>
-        <li><a href="#">Rules</a></li>
-        <li><a href="#">Calculator</a></li>
-        <li><a href="#">Queries</a></li>
-      </ul>
-    </div>
-  </nav>
-</header>
-<div id="content"></div>
-<div class="contactus">
-  <div class="contactusheading">Contact Us</div>
-  <img src="..\images\contactus-icon.jpg" alt="" class="contactusicon"/>
-  <div class="Address-information">
-LAL GHAI & Associates
-  </div>
-</div>
-<footer>
+      <div class="header-navbar">
+        <div class="headerimage">
+          <img src="../images/header-image.jpg" alt="" />
+        </div>
+        <div class="navigationbar">
+          <nav class="navbar navbarproperty" role = "navigation">
+            <div class="container-fluid">
+              <ul class="nav navbar-nav navbarlist-items">
+                <li ><a href="#home"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+                <li><a href="#team"><span class="glyphicon glyphicon-user"></span> Team</a></li>
+                <li><a href="#services"><span class="glyphicon glyphicon-wrench"></span> Services</a></li>
+                <li><a href="#contactus"><span class="glyphicon glyphicon-phone-alt"></span> Contact Us</a></li>
+                <li><a href="#calculator">ROC Fee Calculator</a></li>
+                <li><a href="#queries"><span class="glyphicon glyphicon-comment"></span> Queries</a></li>
+                <li><a href="#trademark"><span class="glyphicon glyphicon-apple"></span> Trademark</a></li>
+                <li><a href="#compliance-management">Compliance Management</a></li>
 
-</footer>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+    </header>
+
+    <div id="content">
+
+    </div>
   </body>
 </html>

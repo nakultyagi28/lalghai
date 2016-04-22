@@ -1,0 +1,26 @@
+.main-heading {
+  margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    background: black;
+    width: 55em;
+    font-size: 1.5em;
+    text-align: center;
+    color: wheat;
+}
+.companylaw-heading,.legalcompliance-heading,.sebilaws-heading,.intelluctualproperty-heading,.foreignexchange-heading,.legalservice-heading,.taxationservices-heading,.bankingservices-heading,.regestrationservices-heading {
+  font-size: 1.5em;
+  color: tomato;
+  font-weight: bolder;
+
+}
+.companylaw-detail,.legalcompliance-detail,.sebilaws-detail,.intelluctualproperty-detail,.foreignexchange-detail,.legalservice-detail,.taxationservices-detail,.bankingservices-detail,.regestrationservices-detail {
+  margin-left: 3em;
+  margin-top: 3em;
+}
+.companylaw-list,.legalcompliance-list,.sebilaws-list,.intelluctualproperty-list,.foreignexchange-list,.legalservice-list,.taxationservices-list,.bankingservices-list,.regestrationservices-list {
+  font-family: cursive;
+  font-size: 1.2em;
+  line-height: 2em;
+  color: seagreen;
+}

@@ -1,0 +1,43 @@
+.briefmoto,.vision,.mission {
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 23px;
+  text-align: justify;
+  width: 55em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: teal;
+  color: wheat;
+  padding: 2em;
+
+}
+.aboutus-heading,.ourvision-heading,.mission-heading {
+  color: green;
+  margin-top: 2em;
+  font-size: 2em;
+  text-align: center;
+}
+.important-linc {
+
+  margin-top: 3em;
+  line-height: 3em;
+  font-size: 1.2em;
+
+  margin-left: 15em;
+  color: #337ab7;
+  text-decoration: none;
+  font-style: oblique
+
+}
+.important-linc-heading {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    background: teal;
+    width: 20em;
+    font-size: 2em;
+    text-align: center;
+    color: wheat;
+}

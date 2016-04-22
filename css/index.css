@@ -1,0 +1,25 @@
+.header-navbar {
+
+  height: 17.54em;
+  text-align: center;
+}
+
+.headerimage img {
+  width: 97em;
+  height: 13em;
+}
+
+ .navbarproperty {
+   background-color: navy;
+   width: 97em;
+   text-align: center;
+   margin: auto;
+}
+
+li a{
+  border-right: 1px solid silver;
+  color: white;
+}
+.rocfeecalculator a {
+color: red;
+}

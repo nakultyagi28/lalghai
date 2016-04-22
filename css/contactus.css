@@ -1,21 +1,11 @@
-.contactusheading
-{
-      text-align: center;
-      font-style: oblique;
-      font-size: 3em;
-      font-family: serif;
+.contactusicon {
+  text-align: center;
 }
-.contactusicon
-{
-height: 23em;
-width: auto;
-margin-top: 5em;
-margin-left: 8em;
-border-right: 1px dashed black;
-}
-.Address-information
-{
-  display: inline;
-  
 
+.ncraddress, .Ludhianaddress {
+  font-size: 1.5em;
+  text-align: center;
+  font-family: monospace;
+  line-height: 1.8em;
+  color: teal;
 }
